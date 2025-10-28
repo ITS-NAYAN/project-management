@@ -81,9 +81,9 @@ Here is the architecture used for secure AWS deployment:
 
 ---
 
-## 📌 Repository Link
+## 📌 DOCUMENTATION LINK (PDF)
 
-🔗 *https://github.com/ITS-NAYAN/project-management.git*
+🔗 DOCUMENTATION.pdf
 
 ---
 
