@@ -2,7 +2,6 @@
 ---
 
 ## 🏗️ PROJECT MANAGEMENT WEB APP — FULL STACK ON AWS
-
 A secure, scalable **Project Management Application** built with **Next.js**, **Node.js**, and **PostgreSQL**, deployed on **AWS** using real-world production architecture and DevOps best practices.
 
 ---
