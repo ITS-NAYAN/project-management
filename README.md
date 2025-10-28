@@ -90,13 +90,13 @@ Here is the architecture used for secure AWS deployment:
 
 
 
-## 🤝 Contributions
+## 🤝 CONTRIBUTION
 
 Pull requests are welcome. Feel free to open an issue for suggestions or bugs.
 
 ---
 
-## ✨ Author **ITS NAYAN**
+## ✨ AUTHOR: **ITS NAYAN**
 🚀 Cloud & DevOps Engineer | 
 📌 Passionate about scalable and secure AWS architectures
 
