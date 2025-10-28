@@ -81,11 +81,13 @@ Here is the architecture used for secure AWS deployment:
 
 ---
 
-## 📌 DOCUMENTATION LINK (PDF)
 
-🔗 DOCUMENTATION.pdf
+## 📌 DOCUMENTATION (PDF)
+
+👉 [Download Full Deployment Guide](https://github.com/ITS-NAYAN/project-management/blob/main/DOCUMENTATION.pdf)
 
 ---
+
 
 
 ## 🤝 Contributions
