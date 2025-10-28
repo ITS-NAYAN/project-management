@@ -1,80 +1,105 @@
-# Build a Complete Project Management Dashboard
 
-[![Tutorial Video](https://img.youtube.com/vi/KAV8vo7hGAo/0.jpg)](https://www.youtube.com/watch?v=KAV8vo7hGAo)
+---
 
-This repository hosts the code for a comprehensive tutorial on building a Project Management Dashboard using Next.js, Node.js, and AWS services.
-Follow the [video tutorial on YouTube](https://www.youtube.com/watch?v=KAV8vo7hGAo) for detailed setup, configuration, and deployment instructions.
+## 🏗️ PROJECT MANAGEMENT WEB APP — FULL STACK ON AWS
 
-## Join Our Community
+A secure, scalable **Project Management Application** built with **Next.js**, **Node.js**, and **PostgreSQL**, deployed on **AWS** using real-world production architecture and DevOps best practices.
 
-For discussion and support for this specific app, join our [Discord community](https://discord.com/channels/1070200085440376872/1082900634442940416/threads/1282730219488280576).
+---
 
-## Technology Stack
+## 📌 TECH STACK
 
-- **Frontend**: Next.js, Tailwind CSS, Redux Toolkit, Redux Toolkit Query, Material UI Data Grid
-- **Backend**: Node.js with Express, Prisma (PostgreSQL ORM)
-- **Database**: PostgreSQL, managed with PgAdmin
-- **Cloud**: AWS EC2, AWS RDS, AWS API Gateway, AWS Amplify, AWS S3, AWS Lambda, AWS Cognito
+| Layer                | Technology                                               |
+| -------------------- | -------------------------------------------------------- |
+| Frontend             | Next.js, TypeScript, Redux Toolkit, Tailwind CSS, Shadcn |
+| Backend              | Node.js, Express.js, Prisma ORM                          |
+| Database             | Amazon RDS (PostgreSQL)                                  |
+| Authentication       | AWS Cognito                                              |
+| Hosting & Networking | EC2, VPC, Subnets, IGW, Route Tables                     |
+| Security             | IAM, Security Groups, Private DB Access                  |
+| API Access           | Amazon API Gateway (HTTPS)                               |
+| Deployment           | AWS Amplify Hosting for CI/CD                            |
 
-## Getting Started
+---
 
-### Prerequisites
+## ✅ KEY AWS FEATURES IMPLEMENTED   
 
-Ensure you have these tools installed:
+🔹 **Custom VPC** with public + private subnets<br>
+🔹 **Secure Private RDS** (no public access)<br>
+🔹 **EC2 backend with PM2** for process management<br>
+🔹 **API Gateway** to resolve HTTPS / mixed content issues<br>
+🔹 **Amplify Frontend Deployment** with environment variables<br>
+🔹 **Strict Security Group Rules** (backend-only DB access)<br>
+🔹 **Multi-AZ subnet group** for DB high availability<br>
+🔹 **Prisma migration + seeding on EC2**
 
-- Git
-- Node.js
-- npm (Node Package Manager)
-- PostgreSQL ([download](https://www.postgresql.org/download/))
-- PgAdmin ([download](https://www.pgadmin.org/download/))
+This deployment follows **AWS Well-Architected Framework security principles** ✅
 
-### Installation Steps
+---
 
-1. Clone the repository:
-   `git clone [git url]`
-   `cd project-management`
+## 🧪 FEATURE 
 
-2. Install dependencies in both client and server:
-   `cd client`
-   `npm i`
-   `cd ..`
-   `cd server`
-   `npm i`
+✔ User login/signup with AWS Cognito<br>
+✔ Create, Update, Delete projects<br>
+✔ Task management<br>
+✔ Secure API communication over HTTPS<br>
+✔ Production-grade deployment pipeline<br>
 
-3. Set up the database:
-   `npx prisma generate`
-   `npx prisma migrate dev --name init`
-   `npm run seed`
+---
 
-4. Configure environment variables:
+## 🖥️ Architecture Diagram
 
-- `.env` for server settings (PORT, DATABASE_URL)
-- `.env.local` for client settings (NEXT_PUBLIC_API_BASE_URL)
+📌 
+## 🏗️ ARCHITECTURE DIAGRAM <br>
 
-5. Run the project
-   `npm run dev`
+Here is the architecture used for secure AWS deployment:
 
-## Additional Resources
+<p align="center">
+  <img src="assets/architecture.png" width="750"/>
+</p>
 
-### Code Repositories and Configuration Files
+---
 
-- [Complete project code on GitHub](https://github.com/ed-roh/project-management)
-- [Tailwind CSS configuration](https://github.com/ed-roh/project-management/blob/master/client/tailwind.config.ts)
-- [Redux Toolkit setup](https://github.com/ed-roh/project-management/blob/master/client/src/app/redux.tsx)
-- [Database seed files](https://github.com/ed-roh/project-management/tree/master/server/prisma/seedData)
-- [Image files](https://github.com/ed-roh/project-management/tree/master/client/public)
-- [globals.css file (to copy for Gantt charts)](https://github.com/ed-roh/project-management/blob/master/client/src/app/globals.css)
-- [AWS EC2 Instruction file](https://github.com/ed-roh/project-management/blob/master/server/aws-ec2-instructions.md)
 
-### Diagrams and Models
+## 🚀 AWS DEPLOYMENT OVERVIEW 
 
-- [Data model diagram](https://lucid.app/lucidchart/877dec2c-db89-4f7b-9ce0-80ce88b6ee37/edit)
-- [AWS architecture diagram](https://lucid.app/lucidchart/62c20695-d936-4ee7-9a53-ceef7aef8127/edit)
-- [AWS Cognito flow diagram](https://lucid.app/lucidchart/9e17e28e-6fe5-41df-b04b-b378fa21eb8f/edit)
+| Component    | Service               | Access               |
+| ------------ | --------------------- | -------------------- |
+| Frontend     | AWS Amplify           | Public HTTPS         |
+| Backend      | Amazon EC2            | Public + API Gateway |
+| Database     | Amazon RDS PostgreSQL | Private Subnets      |
+| Auth         | AWS Cognito           | Managed Login        |
+| API Security | API Gateway           | HTTPS enforced       |
 
-### Database Management Commands
+---
 
-- Command for resetting ID in database:
-  ```sql
-  SELECT setval(pg_get_serial_sequence('"[DATA_MODEL_NAME_HERE]"', 'id'), coalesce(max(id)+1, 1), false) FROM "[DATA_MODEL_NAME_HERE]";
-  ```
+## 🎯 LEARNING OUTCOMES  
+
+✅ Cloud Networking (VPC, Subnets, Routing, SGs)<br>
+✅ Full-stack CI/CD on AWS<br>
+✅ Secure database deployment in private subnets<br>
+✅ API Gateway integration patterns<br>
+✅ Production app monitoring & maintenance (PM2)<br>
+
+---
+
+## 📌 Repository Link
+
+🔗 *https://github.com/ITS-NAYAN/project-management.git*
+
+---
+
+
+## 🤝 Contributions
+
+Pull requests are welcome. Feel free to open an issue for suggestions or bugs.
+
+---
+
+## ✨ Author
+
+**ITS NAYAN**
+🚀 Cloud & DevOps Engineer | 
+📌 Passionate about scalable and secure AWS architectures
+
+---
