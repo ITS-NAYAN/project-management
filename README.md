@@ -47,15 +47,13 @@ This deployment follows **AWS Well-Architected Framework security principles** �
 
 ---
 
-## 🖥️ Architecture Diagram
-
-📌 
+ 
 ## 🏗️ ARCHITECTURE DIAGRAM <br>
 
 Here is the architecture used for secure AWS deployment:
 
 <p align="center">
-  <img src="assets/architecture.png" width="750"/>
+  <img src="[assets/architecture.png](https://github.com/ITS-NAYAN/project-management/blob/main/ARCHITECTURE%20DIAGRAM.png)" width="750"/>
 </p>
 
 ---
@@ -99,7 +97,7 @@ Pull requests are welcome. Feel free to open an issue for suggestions or bugs.
 ## ✨ Author
 
 **ITS NAYAN**
-🚀 Cloud & DevOps Engineer | 
+🚀 Cloud & DevOps Engineer | <br>
 📌 Passionate about scalable and secure AWS architectures
 
 ---
