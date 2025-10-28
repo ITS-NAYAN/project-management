@@ -26,6 +26,21 @@
   nvm install node
   ```
 
+##  Fix: Missing Dependency Error (libatomic)
+
+If you encounter a missing `libatomic` dependency while deploying or running the backend app on EC2, install it using the correct command for your OS:
+
+### Amazon Linux / CentOS / RHEL / Fedora
+```bash
+sudo yum install -y libatomic
+````
+
+### ✅ Ubuntu / Debian
+
+```bash
+sudo apt-get update && sudo apt-get install -y libatomic1
+```
+
 - **Verify that Node.js and npm are installed:**
 
   ```
