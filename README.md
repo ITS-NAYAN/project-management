@@ -83,7 +83,7 @@ Here is the architecture used for secure AWS deployment:
 
 ## 📌 DOCUMENTATION LINK (PDF)
 
-🔗 *DOCUMENTATION.pdf*
+🔗 DOCUMENTATION.pdf
 
 ---
 
