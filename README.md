@@ -96,10 +96,8 @@ Pull requests are welcome. Feel free to open an issue for suggestions or bugs.
 
 ---
 
-## ✨ Author
-
-**ITS NAYAN**
-🚀 Cloud & DevOps Engineer | <br>
+## ✨ Author **ITS NAYAN**
+🚀 Cloud & DevOps Engineer | 
 📌 Passionate about scalable and secure AWS architectures
 
 ---
